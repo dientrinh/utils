@@ -16,9 +16,17 @@ Database: pfmegrnargs
 User: reader
 Password: NWDMCE5xdipIjRrp
 ## Free Run Postgre:https://extendsclass.com/postgresql-online.html
+### Comment out in DB Vib
+###Comment out: <br />
+select * from company <br/>
+        where age >0 <br/>
+               /* and id>1 */ <br/>
 
-Comment out: select * from company 
-        where age >0
-               /* and id>1 */
+### Update without commit
+BEGIN; <br/>
+UPDATE company SET name = 'dien'<br/>
+    WHERE id = 1;<br/>
+SELECT * FROM company;<br/>
+ROLLBACK;<br/>
                
 
