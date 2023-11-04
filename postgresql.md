@@ -17,3 +17,8 @@ User: reader
 Password: NWDMCE5xdipIjRrp
 ## Free Run Postgre:https://extendsclass.com/postgresql-online.html
 
+Comment out: select * from company 
+        where age >0
+               /* and id>1 */
+               
+
