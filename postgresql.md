@@ -8,5 +8,12 @@
 - Password:szrykedqsdlmrkndbpokbiit
 - Database name:booking1699047614704hbaqomanmroibbgg
 
+ ### Read only free Database
+Main database
+Hostname: hh-pgsql-public.ebi.ac.uk
+Port: 5432
+Database: pfmegrnargs
+User: reader
+Password: NWDMCE5xdipIjRrp
 ## Free Run Postgre:https://extendsclass.com/postgresql-online.html
 
