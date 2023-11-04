@@ -17,7 +17,7 @@ User: reader
 Password: NWDMCE5xdipIjRrp
 ## Free Run Postgre:https://extendsclass.com/postgresql-online.html
 ### Comment out in DB Vib
-###Comment out: <br />
+### Comment out: <br />
 select * from company <br/>
         where age >0 <br/>
                /* and id>1 */ <br/>
